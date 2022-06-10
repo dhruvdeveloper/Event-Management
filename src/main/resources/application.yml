@@ -1,0 +1,23 @@
+server:
+  port: 8080
+
+spring:
+  mvc:
+    view:
+      prefix: /view/
+      suffix: .jsp
+  main:
+    banner-mode: off
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://
+    username: 
+    password: 
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    open-in-view: false
+    generate-ddl: false
