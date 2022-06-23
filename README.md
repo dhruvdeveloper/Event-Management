@@ -6,7 +6,7 @@ System requirements:
 - Intellij or Eclipse Ide.
 
 How to run the application:
-- Extract the zip file CSE5322_ProjectIteration2_3.zip and go to the CSE5322_ProjectIteration2_3/i2 folder. Open the i2 folder in the IDE.
+- Clone the repo, Open the i2 folder in the IDE.
 - Go to the pom.xml file and download the maven dependencies.
 - Now, go to the src\main\java\edu\sdp\ntcc\i2 folder and look for the I2Application.java file.
 - Run the I2Application.java file.
